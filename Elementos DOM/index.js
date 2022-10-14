@@ -1,3 +1,3 @@
 function show(){
-    get
+    const contactList = document.getElementById(contact-list);
 }
