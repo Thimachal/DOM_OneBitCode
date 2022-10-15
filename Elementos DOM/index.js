@@ -5,3 +5,4 @@ function show(){
 }
 
 //função dom
+//new
