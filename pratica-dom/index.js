@@ -11,7 +11,7 @@ function addContact(){
     const nameInput = document.createElement('input');
     nameInput.type = 'text';
     nameInput.name = 'fullname';
-    //inserindo filho na camada do pai
+    
     nameLi.appendChild(nameInput);
     ul.appendChild(nameLi);
 
@@ -20,9 +20,11 @@ function addContact(){
     const phoneInput = document.createElement('input');
     phoneInput.type = 'text';
     phoneInput.name = 'phone';
-    //inserindo filho na camada do pai
+    
     phoneLi.appendChild(phoneInput);
     ul.appendChild(phoneLi);
+
+    contatSection.append(h3);
 
 }
 
