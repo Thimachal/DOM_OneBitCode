@@ -1,3 +1,7 @@
 function addContact(){
 
 }
+
+function removContac(){
+    
+}
