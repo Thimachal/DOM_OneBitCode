@@ -13,7 +13,7 @@ function addContact(){
     nameInput.name = 'fullname';
 
     nameLi.appendChild(nameImput);
-    ul.appendChild(nameLi)
+    ul.appendChild(nameLi);
 
 
 
