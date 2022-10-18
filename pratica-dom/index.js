@@ -23,7 +23,7 @@ function addContact(){
     
     phoneLi.appendChild(phoneInput);
     ul.appendChild(phoneLi);
-
+    ul.appendChild(document.createElement('br'));
     contactSection.append(h3, ul);
 
 }
