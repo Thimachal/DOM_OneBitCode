@@ -1,5 +1,5 @@
 function addContact(){
-    const contatSection = document.getElementById('contacts-list');
+    const contactSection = document.getElementById('contacts-list');
 
     const h3 = document.createElement('h3');
     h3.innerText = "Contato";
@@ -24,7 +24,7 @@ function addContact(){
     phoneLi.appendChild(phoneInput);
     ul.appendChild(phoneLi);
 
-    contatSection.append(h3, ul);
+    contactSection.append(h3, ul);
 
 }
 
