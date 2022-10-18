@@ -24,7 +24,7 @@ function addContact(){
     phoneLi.appendChild(phoneInput);
     ul.appendChild(phoneLi);
 
-    contatSection.append(h3);
+    contatSection.append(h3, ul);
 
 }
 
