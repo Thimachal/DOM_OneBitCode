@@ -33,7 +33,7 @@ function addContact(){
     addressInput.name = 'address';
     addressInput.id = 'address';
     addressLi.appendChild(addressInput);
-    ul.appendChild(addresLi);
+    ul.appendChild(addressLi);
     ul.appendChild(document.createElement('br'));
 
 
