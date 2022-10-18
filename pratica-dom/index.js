@@ -11,11 +11,18 @@ function addContact(){
     const nameInput = document.createElement('input');
     nameInput.type = 'text';
     nameInput.name = 'fullname';
-
+    //inserindo filho na camada do pai
     nameLi.appendChild(nameImput);
     ul.appendChild(nameLi);
 
-
+    const phoneLi = document.createElement('li');
+    phoneLi.innerText = "Tel: ";
+    const phoneInput = document.createElement('input');
+    phoneInput.type = 'text';
+    phoneInput.name = 'phone';
+    //inserindo filho na camada do pai
+    phoneLi.appendChild(phoneImput);
+    ul.appendChild(phoneLi);
 
 }
 
