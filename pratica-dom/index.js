@@ -39,7 +39,7 @@ function addContact(){
 
     
     
-    contactSection.append(h3, ul);
+    contactSection.append( ul);
 }
 
 function removContac(){
