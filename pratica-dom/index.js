@@ -27,7 +27,7 @@ function addContact(){
     ul.appendChild(document.createElement('br'));
 
     const addresLi = document.createElement('li');
-    addresLi.innerHTML = '<label for="adress">Endereço: </label>';
+    addresLi.innerHTML = '<label for="address">Endereço: </label>';
     const addressInput = document.createElement('input');
     addressInput.type = 'text';
     addressInput.name = 'address';
