@@ -1,1 +1,3 @@
-//codigo do dom aqui
+function addContact(){
+
+}
