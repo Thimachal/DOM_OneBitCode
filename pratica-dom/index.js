@@ -50,3 +50,5 @@ function removeContact(){
     contactSection.removeChild(titles[titles.length - 1]);
     contactSection.removeChild(contacts[contacts.length - 1]);
 }
+
+//section
