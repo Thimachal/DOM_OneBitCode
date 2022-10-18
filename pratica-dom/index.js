@@ -43,5 +43,6 @@ function addContact(){
 }
 
 function removContac(){
+    const contactSection = document.getElementById('contacts-list');
 
 }
