@@ -32,7 +32,10 @@ function addContact(){
     addressInput.type = 'text';
     addressInput.name = 'address';
     addressInput.id = 'address';
-    
+    addressLi.appendChild(addressInput);
+    ul.appendChild(addresLi);
+    ul.appendChild(document.createElement('br'));
+
 
     
     
