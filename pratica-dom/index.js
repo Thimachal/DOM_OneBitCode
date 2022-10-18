@@ -14,6 +14,7 @@ function addContact(){
     
     nameLi.appendChild(nameInput);
     ul.appendChild(nameLi);
+    ul.appendChild(document.createElement('br'));
 
     const phoneLi = document.createElement('li');
     phoneLi.innerText = "Tel: ";
@@ -24,8 +25,18 @@ function addContact(){
     phoneLi.appendChild(phoneInput);
     ul.appendChild(phoneLi);
     ul.appendChild(document.createElement('br'));
-    contactSection.append(h3, ul);
 
+    const addresLi = document.createElement('li');
+    addresLi.innerHTML = '<label for="adress">Endereço: </label>';
+    const adressInput = document.createElement('input');
+    addressInput.type = 'text';
+    addressInput.name = 'address';
+    addressInput.id = 'address';
+    
+
+    
+    
+    contactSection.append(h3, ul);
 }
 
 function removContac(){
