@@ -53,4 +53,4 @@ function removeContact(){
 
 //section
 //dom
-/*/dom2
+//dom2
