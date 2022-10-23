@@ -56,3 +56,7 @@ function removeContact(){
 //dom2
 //teste novamente
 //novo teste javascript
+
+function addconect(){
+
+}
