@@ -55,3 +55,4 @@ function removeContact(){
 //dom
 //dom2
 //teste novamente
+//novo teste javascript
