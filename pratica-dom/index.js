@@ -58,5 +58,5 @@ function removeContact(){
 //novo teste javascript
 
 function addconect(){
-
+    const Avai = 0;
 }
