@@ -59,4 +59,5 @@ function removeContact(){
 
 function addconect(){
     const Avai = 0;
+    return;
 }
