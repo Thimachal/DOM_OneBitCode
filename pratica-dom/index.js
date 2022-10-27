@@ -61,3 +61,7 @@ function addconect(){
     const Avai = 0;
     return;
 }
+
+function advpl()  {
+return
+}
